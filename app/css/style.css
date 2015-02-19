@@ -1,0 +1,169 @@
+/*This is my custom stylesheet*/
+h1 {
+	font-family: Aleo-BoldItalic;
+	src: url(Aleo-BoldItalic.otf);
+	font-size: 54pt;
+	color: white;
+}
+
+h2 {
+	font-family: Aleo-Light;
+	src: url(Aleo-Light.otf);
+	font-size: 14pt;
+	color: black;
+}
+
+h3 {
+	font-family: Aleo-BoldItalic;
+	src: url(Aleo-BoldItalic.otf);
+	font-size: 18pt;
+	color: white;
+}
+
+
+#subtext {
+	color: white;
+	font-family: Aleo-Light;
+	src: url(Aleo-Light.otf);
+	font-size: 12pt;
+	padding-top: 9px;
+}
+
+#intro {
+	min-height: 180px;
+	height:auto;
+
+	background-color: black;
+	width: 100%;
+	opacity: 0.8;
+	/*text-align: right;
+	color: #660099;*/
+	/*font-family: Helvetica Neue;*/
+    /*text-shadow: #CCCCFF 0.3em 0.3em 0.3em;*/
+}
+ /*HTML FORM*/
+ .center {
+    text-align:center;
+    font-family: Helvetica Neue, Arial, sans-serif;
+}
+.center form {
+    display:inline-block;
+}
+#search {
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	font-family: Helvetica Neue, Arial, sans-serif;
+}
+/*#Results {
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	font-family: Helvetica Neue, Arial, sans-serif;*/
+}
+#about .center {
+	text-align:center;
+    font-family: Helvetica Neue, Arial, sans-serif;
+}
+/*Spotify Play buttons*/
+#results {
+	min-height: 400px;
+	height:auto;
+	padding-top: 2em;
+}
+#object {
+	padding-left: 4em;
+	display: inline-block;
+}
+#objecttwo {
+	padding-left: 3em;
+	display: inline-block;
+}
+#objectthree {
+	padding-left: 2em;
+	display: inline-block;
+}
+span {
+	padding-left: 8em;
+}
+footer {
+	padding: 3em 0;
+	margin: 4em 0;
+	text-align: center;
+	color: #660099;
+	text-shadow: #CCCCFF 0.3em 0.3em 0.3em;
+	font-weight: bold;
+	font-family: Helvetica Neue, Arial, sans-serif;
+}
+/*Increased padding from 2, margin from 3*/
+#footerpythons {
+	color: #000000;
+	min-height: 150px;
+	height:auto;
+}
+body {
+	background: url(../img/pythons.abs.bg..2.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+ .wrapper-killer-things {
+	width: 100%;
+	height: 302px;
+	background: transparent;
+	margin: 0 auto; 
+	position: relative;
+	display: flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+}
+
+.content-top-botton {
+	height: 70px;
+	background-color: transparent;
+	text-align: center;
+}
+
+.content-top-botton-2 {
+	height: 40px;
+	background-color: transparent;
+	text-align: center;
+}
+
+.container-share-buttons {
+	height: 64px;
+	background-color: transparent;
+	position: relative;
+	display: flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	-webkit-align-items: flex-end;
+	-moz-align-items: flex-end;
+	-ms-align-items: flex-end;
+	align-items: flex-end;
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+}
+
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+

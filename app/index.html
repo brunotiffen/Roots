@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back To Your Roots</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/respond.min.js"></script>
+    <script type="text/javascript" src="../bower_components/lastfm-api/src/lastfm.api.md5.js"></script>
+    <script type="text/javascript" src="../bower_components/lastfm-api/src/lastfm.api.js"></script>
+    <script type="text/javascript" src="../bower_components/lastfm-api/src/lastfm.api.cache.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+
+    <script type="text/javascript">
+            !function(a,b){a("Keen","https://d26b395fwzu5fz.cloudfront.net/3.1.0/keen.min.js",b)}(function(a,b,c){var d,e,f;c["_"+a]={},c[a]=function(b){c["_"+a].clients=c["_"+a].clients||{},c["_"+a].clients[b.projectId]=this,this._config=b},c[a].ready=function(b){c["_"+a].ready=c["_"+a].ready||[],c["_"+a].ready.push(b)},d=["addEvent","setGlobalProperties","trackExternalLink","on"];for(var g=0;g<d.length;g++){var h=d[g],i=function(a){return function(){return this["_"+a]=this["_"+a]||[],this["_"+a].push(arguments),this}};c[a].prototype[h]=i(h)}e=document.createElement("script"),e.async=!0,e.src=b,f=document.getElementsByTagName("script")[0],f.parentNode.insertBefore(e,f)},this);
+    </script>
+    <script type="text/javascript">
+        var client = new Keen({
+            projectId: "54e6022e59949a765ec3d97e",       // String (required)
+            writeKey: "ba596c97fb2bc8b1e588c4c74b2445156da36f62b70ef7330c721438b50c01db8403f9ecb8e8ab6660ba4b64fe7153ccebfbfb0b005bb459339936c4e7bb73224d467dce2b083e2aff495d908569bddf5a6344d330dfc569233c1f9d587eb806ae0cbd7b39b99036cd12da40ee41a74a", // String (required for sending data)
+            readKey: "47063a80131733657a216186f05ce1ef56e7d1639b4bca477e4f2f7207377c9d9d7118d150e2adc67bfd548fed7465f92d6af39ee8619b7ccdcf7ed22fb5d69e9e99eac3edfe7ecb1435180b373043d57bfe0179d9c40337b9679fc624cb55d6aa1d5086f6dfe8e165e50c3acc00d74d",   // String (required for querying data)
+            protocol: "https",                  // String (optional: https | http | auto)
+            host: "api.keen.io/3.0",            // String (optional)
+            requestType: "jsonp"                // String (optional: jsonp, xhr, beacon)
+        });
+        </script>
+</head>
+
+<body>
+        <!-- row 1 *** Intro div with Music Tree html form ***
+        ======================================================-->
+         <div id="intro">
+            <div class="row">
+                <div class="col-lg-12 col-sm-6">
+                    <div class="span6 center">
+                                <body>
+                                    <h1> roots </h1>
+                                    <p id="subtext">Input an ARTIST and a TRACK to start, and keep growing your music's roots.</p>
+                                </body>
+                    </div> <!-- div span6 center-->  
+                </div> <!-- div class col -->
+            </div> <!-- div class row-->
+        </div> <!-- div Intro.-->
+        <!-- row 2 *** About div back in - short explanation of Music Tree ***
+        ======================================================-->
+
+    <div class="container">
+        <!-- ***THIS VERSION - REMOVED 'INTRO' DIV COPY & 'ABOUT' DIV - NOW ONLY TWO DIVS + DIV ROWS***
+        ===============================================================================-->
+            <div class="wrapper-killer-things content-top-botton-2">
+            </div>
+
+        <div id="about">
+            <div class="row">
+                <div class="col-lg-12 col-sm-6">
+                    <div class="span8 center">
+                                    <h2> </h2> 
+                                    <form id="searchform">
+
+                                    <label> Artist: </label>
+                                    <input id="artist" type="text"  placeholder="Artist or Band" value=""/>
+
+                                    <label> Track: </label>                              
+                                    <input id="track" type="text" placeholder="Song name" value=""/>
+                                
+                                    <input type="submit" id="search" class="btn-default" value="GO!"/>
+
+                                    </form>
+
+                        <h2> </h2> 
+                        <h2> </h2>
+                        <h2> </h2>
+                        <h2> </h2> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="about">
+            <div class="row">
+                <div class="col-lg-12 col-sm-6">
+                    <div class="span8 center">
+                        <h2> </h2> 
+                    </div>
+                </div>
+            </div>
+        </div>        
+        <!-- row 3 *** Song results & Spotify Play Buttons ***
+        =====================================================-->
+        <div id="result">
+                <!-- ATTEMPT TO CENTRE WITH 'RESPONSIVE UTILITIES' FAQ DIDN'T WORK 
+                <div class="center-block"> -->
+                    <iframe src="https://embed.spotify.com/?uri=spotify:track:6JEK0CvvjDjjMUBFoXShNZ" width="300" height="380" frameborder="0" allowtransparency="true" class="col-lg-4" id="object"></iframe>
+
+            	    <iframe src="https://embed.spotify.com/?uri=spotify:track:6JEK0CvvjDjjMUBFoXShNZ" width="300" height="380" frameborder="0" allowtransparency="true" class="col-lg-4" id="objecttwo"></iframe>
+
+                    <iframe src="https://embed.spotify.com/?uri=spotify:track:6JEK0CvvjDjjMUBFoXShNZ" width="300" height="380" frameborder="0" allowtransparency="true" class="col-lg-4" id="objecttwo"></iframe>
+                <!-- </div> 'RESPONSIVE UTILITIES' attempt -->
+        </div> <!-- *** div id present -->
+        <!-- row 4 *** New buttons ***
+        ==============================-->
+        <div id="buttons">
+                    <article class="col-lg-2 col-lg-offset-1">
+                    <p><span><button type="button" id="Result1search" class="btn btn-primary">Dig this result</button></span></p>
+                    </article>
+                    <article class="col-lg-2 col-lg-offset-2">
+                    <p><span><button type="button" id="Result2search" class="btn btn-primary">Dig this result</button></span></p>
+                    </article>
+                    <article class="col-lg-2 col-lg-offset-2">
+                    <p><span><button type="button" id="Result3search" class="btn btn-primary">Dig this result</button></span></p>
+                    </article>
+        </div> <!-- CLOSE new buttons-->
+        <!-- row 5 *** footer
+        =====================-->
+    </div><!--close container>-->
+
+            <div class="wrapper-killer-things content-top-botton">
+            </div> 
+            <div class="wrapper-killer-things content-top-botton">
+            </div>
+
+    <div class="wrapper-killer-things content-top-botton">
+                <div class="wrapper-killer-things container-share-buttons">
+                    <div id="share-buttons">
+                        <!-- Facebook -->
+                        <a href="http://www.facebook.com/sharer.php?u=http://www.simplesharebuttons.com" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
+ 
+                        <!-- Twitter -->
+                        <a href="http://twitter.com/share?url=http://www.simplesharebuttons.com&text=Simple Share Buttons&hashtags=simplesharebuttons" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
+ 
+                        <!-- Google+ -->
+                        <a href="https://plus.google.com/share?url=http://www.simplesharebuttons.com" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/google.png" alt="Google" /></a>
+ 
+                        <!-- Reddit -->
+                        <a href="http://reddit.com/submit?url=http://www.simplesharebuttons.com&title=Simple Share Buttons" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/reddit.png" alt="Reddit" /></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrapper-killer-things content-top-botton-2">
+                    <h3><a href="about-us.html">WHO DID THIS</a></h3>
+            </div>      
+
+            <div class="wrapper-killer-things content-top-botton-2">
+                    <h2><black>roots</black> is powered by <a href="http://www.lastfm.se/api">last.fm</a> and <a href="https://developer.spotify.com/web-api/">Spotify</a>.</h2>
+            </div>                   
+
+       <!-- <footer class="row" id="footerpythons">
+             <p>Back To Your Roots is powered by <a href="http://www.lastfm.se/api">last.fm</a> and <a href="https://developer.spotify.com/web-api/">Spotify</a>.</p>
+        	 <p><a href="about-us.html">WHO DID THIS</a></p>
+             <!--p><a href="index-meetthepythons.html">Check out the team behind Music Tree</a></p>
+        </footer>-->
+
+    
+<!-- javascript -->
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+ <script type="text/javascript" src="../bower_components/spotify-web-api-js/src/spotify-web-api.js"></script>
+ <script src="js/main.js" type="text/javascript"></script>
+</html>

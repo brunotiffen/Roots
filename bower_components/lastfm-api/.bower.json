@@ -1,0 +1,24 @@
+{
+  "name": "lastfm-api",
+  "version": "0.0.1",
+  "main": "lastfm-api.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/molefrog/lastfm-api",
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.1",
+    "commit": "22c31c5fa551c98cbd3e5942e86ba697d37378af"
+  },
+  "_source": "git://github.com/molefrog/lastfm-api.git",
+  "_target": "~0.0.1",
+  "_originalSource": "lastfm-api",
+  "_direct": true
+}

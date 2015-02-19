@@ -45,6 +45,7 @@ var cx = '010867104842650022402:1_wfamoobvu';
       }
       fetchImage();  
 
+      console.log("we found");
       console.log($("#artist").val());
   var userSearch = {
       artist: $("#artist").val(),

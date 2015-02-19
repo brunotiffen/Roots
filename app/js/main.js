@@ -45,6 +45,12 @@ var cx = '010867104842650022402:1_wfamoobvu';
       }
       fetchImage();  
 
+      console.log($("#artist").val());
+  var userSearch = {
+      artist: $("#artist").val(),
+    }
+    client.addEvent("artist", userSearch);
+
 
 //USE THE USER'S INPUT TO SEARCH FOR SIMILAR TRACKS ON LAST.FM
 // // var LastfmAPI = require('lastfmapi');
@@ -441,11 +447,7 @@ spotifyApi.searchTracks(resultOne)
   }, error: function(code, message){
     console.log("Error: ");
 }})
-console.log($("#artist").val());
-  var userSearch = {
-      artist: $("#artist").val(),
-    }
-    client.addEvent("artist", userSearch);
+
 
 ;}
 

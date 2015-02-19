@@ -24,6 +24,7 @@ var cx = '010867104842650022402:1_wfamoobvu';
 // Keen.io
       console.log("we found");
       console.log(aResult)
+      console.log(tResult)
       console.log("Boom");
   var userSearch = {
       artist: aResult,

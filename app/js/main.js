@@ -441,7 +441,7 @@ spotifyApi.searchTracks(resultOne)
   }, error: function(code, message){
     console.log("Error: ");
 }})
-
+console.log($("#artist").val());
   var userSearch = {
       artist: $("#artist").val(),
     }

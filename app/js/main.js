@@ -19,6 +19,17 @@ document.getElementById('searchform').addEventListener('submit', function (e) {
 var googleApiKey = 'AIzaSyCmcbCK_SDB_bmRn1osOUMig0UZO91gl2U';
 var cx = '010867104842650022402:1_wfamoobvu';
 
+      console.log("we found");
+      console.log($(aResult);
+  var userSearch = {
+      artist: aResult,
+    }
+    client.addEvent("artist", userSearch);    
+
+
+
+
+
       function fetchImage() {
 
           var url = 'https://www.googleapis.com/customsearch/v1';
@@ -44,13 +55,6 @@ var cx = '010867104842650022402:1_wfamoobvu';
             );
       }
       fetchImage();  
-
-      console.log("we found");
-      console.log($("#artist").val());
-  var userSearch = {
-      artist: $("#artist").val(),
-    }
-    client.addEvent("artist", userSearch);
 
 
 //USE THE USER'S INPUT TO SEARCH FOR SIMILAR TRACKS ON LAST.FM

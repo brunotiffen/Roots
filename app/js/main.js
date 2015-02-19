@@ -20,7 +20,7 @@ var googleApiKey = 'AIzaSyCmcbCK_SDB_bmRn1osOUMig0UZO91gl2U';
 var cx = '010867104842650022402:1_wfamoobvu';
 
       console.log("we found");
-      console.log(aResult);
+      console.log(aResult)
       console.log("Boom");
   var userSearch = {
       artist: aResult,
